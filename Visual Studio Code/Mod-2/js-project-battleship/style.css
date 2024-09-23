@@ -1,0 +1,118 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/mesmerizing-shot-crystal-blue-ocean-waves_181624-48854.jpg?t=st=1726809349~exp=1726812949~hmac=1573bdb2ed2de6e483de9571cb00ef6924b2c6bed970087a81475c87d6759203&w=1380);
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center; 
+}
+
+#game-info {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#gamesboard-container {
+width: 500px;
+display: flex;
+justify-content: space-between;
+}
+
+.game-board {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.block {
+    width: 20px;
+    height: 20px;
+    /* border for the little boxes on the board */
+    border: solid 1.25px black;
+    box-sizing: border-box;
+}
+
+.option-container {
+    width: 500px;
+    height: 60px;
+    margin: 30px 0;
+    background-color: rgba(14, 104, 156, 0.764);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destroyer {
+    background-color: brown;
+}
+
+.submarine {
+    background-color: green;
+}
+
+.cruiser {
+    background-color: purple;
+}
+
+.battleship {
+    background-color: orange;
+}
+.carrier {
+    background-color: blue;
+}
+
+
+.destroyer-preview {
+    width: 20px;
+    height: 10px;
+    margin: 3px;
+}
+
+.submarine-preview {
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+
+}
+
+.cruiser-preview {
+    width: 30px;
+    height: 10px;
+    margin: 3px
+}
+
+.battleship-preview {
+    width: 40px;
+    height: 10px;
+    margin: 3px
+}
+
+.carrier-preview {
+    width: 50px;
+    height: 10px;
+    margin: 3px
+}
+
+.hover {
+    background-color: rgba(49, 50, 52, 0.702);
+}
+#computer .destroyer,
+#computer .submarine,
+#computer .cruiser,
+#computer .battleship,
+#computer .carrier {
+    background-color: rgba(36, 36, 32, 0);
+}
+
+.boom {
+    background-color: rgb(75, 182, 244) !important;
+}
+
+.empty {
+    background-color: rgb(10, 62, 93) !important;
+}
